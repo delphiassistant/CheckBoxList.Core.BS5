@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>CheckBoxList.Core.BS5</RootNamespace>
+    <AssemblyName>CheckBoxList.Core.BS5</AssemblyName>
+    <Authors>Mehdi Keramati, Original Work was done by Ganesh Narayan Jangir</Authors>
+    <Company />
+    <Description>Creates a multiselection check box list based on the provided item source. Bootstrap 5 compatible.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/delphiassistant/CheckBoxList.Core.BS5</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/delphiassistant/CheckBoxList.Core.BS5.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>CheckBoxList, CheckBox, ASP.NET CORE, CORE, Bootstrap5</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.0.0</Version>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
